@@ -1,6 +1,6 @@
 const express = require('express');
 const { MongoClient } = require('mongodb');
-const mongoose = require('./seed');
+
 
 
 const app = express();
