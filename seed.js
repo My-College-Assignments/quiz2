@@ -1,4 +1,5 @@
-const connectionStr = "mongodb://127.0.0.1:27017/Exam";
+// const connectionStr = "mongodb://127.0.0.1:27017/Exam";
+const connectionStr = "mongodb+srv:// tempuser:123@cluster0.f9d6o.gcp.mongodb.net/Exam";
 const mongoose = require('mongoose');
 
 

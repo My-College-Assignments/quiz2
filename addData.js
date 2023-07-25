@@ -9,16 +9,19 @@ async function addData() {
         { "name": "Anshdeep Singh", 
         "sid":"300351832"
       });
-    
-      await data.save();
-  
+      
       console.log("Data Inserted");
   
       mongoose.connection.close();
+
+      return await data.save();
+
     } catch (error) {
       console.error('Error:', error);
       mongoose.connection.close();
     }
   }
-  
+
 addData();
+
+module.exports = addData();
